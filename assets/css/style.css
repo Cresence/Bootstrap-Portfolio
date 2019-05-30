@@ -215,3 +215,43 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width:980px) {
+  #masthead {
+    position: static;
+  }
+  #main-container {
+    padding-top: 0px;
+  }
+  nav {
+    margin-right: 2%;
+  } 
+  footer {
+    height: 0%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .auth-image {
+    width: 350px;
+  }
+  .work {
+    width: 315px;
+    vertical-align: middle;
+  }
+  
+}
+
+/* Image height needs to be adjusted a bit more */
+@media screen and (max-width:640px) {
+  #logo {
+    width: 100%;
+  }
+  nav {
+    margin-right: 30%;
+  }
+  .work {
+    width: 100%;
+  }
+  
+  }
