@@ -124,7 +124,21 @@ h3, h2 {
   min-height: calc(100vh - 70px);
 }
 
+#sub-container {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+
 .main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+.sub-section {
   float: left;
   width: 100%;
   max-width: 960px;
@@ -144,7 +158,19 @@ h3, h2 {
   overflow: auto;
 }
 
+.work2 {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  margin-left: 1px;
+  overflow: auto;
+}
+
 .work:nth-child(even) {
+  margin-right: 350px;
+}
+.work2:nth-child(even) {
   margin-right: 350px;
 }
 
@@ -153,8 +179,26 @@ h3, h2 {
   border: 0 none;
   opacity: 0.8;
 }
+.work2 img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
 
 .work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+.work2 h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
